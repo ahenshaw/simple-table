@@ -316,7 +316,7 @@ impl FancyTable {
         let columns: Vec<Column> = (0..num_cols)
             .map(|_| {
                 Column::new(self.min_col_width)
-                    .resizable(true)
+                    .resizable(false)
                     .range(self.min_col_width..=f32::INFINITY)
             })
             .collect();
