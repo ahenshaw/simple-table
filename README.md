@@ -1,6 +1,9 @@
 # simple-table
 
 An easy-to-use egui table widget built on [`egui_table`] v0.7.
+
+LLM-generated
+
 Features:
 - Scrollable in both horizontal and vertical dimensions
 - Fixed (sticky) header row that stays visible while scrolling vertically
