@@ -1,0 +1,10 @@
+[package]
+name = "simple_table"
+version = "0.1.0"
+edition = "2021"
+description = "Easy-to-use egui table widget with fixed header row and column"
+
+[dependencies]
+egui = "0.33"
+egui_table = "0.7"
+eframe = { version = "0.33", default-features = true }
